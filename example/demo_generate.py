@@ -7,7 +7,7 @@ sample_text = "sample/generation/example.txt"
 # Common CSS properties
 STYLE_COMBINATIONS = {
     "font_family"   : ["Times"], # sans-serif, Times, monospace, etc
-    "font_size"     : ["12px"],
+    "font_size"     : ["24px"],
     "text_align"    : ["justify"], # left, right, center, justify
     "language"      : ["en_US"],  # controls how words are hyphenated
     "hyphenate"     : [True],
