@@ -18,7 +18,7 @@
         <div class="paragraphs" >
             {% for c in content %}
                 {% if c.content_type.__str__() == "ContentType.PARAGRAPH" %}
-                    <p style="page-break-after: always;"> {{ c }} </p>
+                    <p style="white-space: pre-line"> {{ c }} </p>
                 {% else %}
                     <p> Unsupported Content Type: {{c.content_type.__str__()}} </p>
                 {% endif %}
